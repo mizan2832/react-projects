@@ -10,6 +10,7 @@ const Tours = ({ tours,removeTour }) => {
             <div className="underLine"></div>
             <div>
                 {tours.map((tour) => {
+                    console.log(tour);
                     return <Tour key={tour.id} {...tour} removeTour={removeTour} />;
                 })}
             </div>

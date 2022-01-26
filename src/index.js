@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './tour/App';
-import './tour/index.css'
+import App from './review/App';
+import './review/index.css'
 
 
 ReactDOM.render(
